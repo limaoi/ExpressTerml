@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 有边框 有圆角 背景灰色 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient android:angle="90" android:endColor="@color/dimgray" android:startColor="@color/black" />
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:angle="90" android:endColor="@color/whitesmoke" android:startColor="@color/colorWhite" />
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+            <corners android:radius="10dp" />
+            <stroke android:width="2dip" android:color="@color/colorWhite" />
+        </shape>
+    </item>
+</selector>

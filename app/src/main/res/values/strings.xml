@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">哈啰货的</string>
+
+    <string name="rb_get_goods">取件管理</string>
+    <string name="rb_send_goods">送货管理</string>
+    <string name="rb_me">个人中心</string>
+
+    <string name="tv_dot_info">网点信息</string>
+    <string name="tv_wallet">钱包</string>
+    <string name="tv_account_info">账户信息</string>
+    <string name="tv_contact_headquarters">联系总部</string>
+
+    <string name="tv_task_list">任务列表</string>
+    <string name="tv_order_number">订单号：</string>
+    <string name="tv_sender_name">寄件人：</string>
+    <string name="tv_order_state">订单状态：</string>
+    <string name="tv_go">去取件</string>
+    <string name="tv_details">签收</string>
+
+    <string name="tv_send_list">配送清单</string>
+    <string name="tv_receiver_name">收件人：</string>
+    <string name="tv_detailed_phoneNumber">手机号码</string>
+    <string name="tv_detailed_email">邮箱</string>
+    <string name="tv_detailed_name">请输入您的真实姓名</string>
+    <string name="tv_detailed_birthday">19XX-01-01</string>
+    <string name="tv_detailed_region">请输入省-市-区</string>
+    <string name="tv_detailed_address">请输入您的详细地址</string>
+
+    <string name="connect">连接</string>
+    <string name="connecting">连接中</string>
+    <string name="cut">断开</string>
+    <string name="cutting">断开中</string>
+    <string name="port">Port:</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="address">Addr:</string>
+    <string name="usb">USB</string>
+    <string name="ethernet">以太网</string>
+    <string name="ip_address">ip:</string>
+    <string name="ok">OK</string>
+    <string name="port_number">端口:</string>
+    <string name="init_port_info">Port:undefined Addr:undefined</string>
+    <string name="gprinter001">Printer 001</string>
+    <string name="gprinter002">Printer 002</string>
+    <string name="gprinter003">Printer 003</string>
+    <string name="gprinter004">Printer 004</string>
+    <string name="gprinter005">Printer 005</string>
+    <string name="port_parameters_wrong">无效的参数！</string>
+    <string name="port_parameters_is_not_save">端口参数没有保存！</string>
+    <string name="default_ip_address">192.168.123.100</string>
+    <string name="default_port_number">9100</string>
+    <string name="none_usb_device">没有USB设备连接</string>
+    <string name="bluetooth_is_not_enabled">蓝牙未启用</string>
+    <string name="bluetooth_address">蓝牙 addr： </string>
+    <string name="usb_address">USB： </string>
+    <string name="title_paired_devices">配对</string>
+    <string name="title_other_devices">New</string>
+    <string name="scan">扫描</string>
+    <string name="none_paired">没有配对</string>
+    <string name="select_bluetooth_device">选择蓝牙设备</string>
+    <string name="none_bluetooth_device_found">未找到蓝牙设备</string>
+    <string name="scaning">扫描中</string>
+    <string name="bluetooth_device_list">蓝牙设备列表</string>
+    <string name="port_configuration">端口配置</string>
+</resources>

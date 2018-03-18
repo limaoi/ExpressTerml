@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<!--描边颜色、宽度-->
+    <stroke android:width="0.5dp" android:color="@color/word_alipay_blue"/>
+
+    <!--边框与控件的距离-->
+    <padding android:bottom="2dp"
+        android:right="2dp"
+        android:left="2dp"
+        android:top="2dp"/>
+
+    <!--边框圆角的弧度-->
+    <corners android:radius="8dp"/>
+
+    <!--边框内的填充-->
+    <solid android:color="#00fffdfd"/>
+</shape>

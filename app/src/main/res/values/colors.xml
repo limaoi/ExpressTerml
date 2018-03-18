@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_f08519">#f08519</color>
+    <color name="color_dadada">#dadada</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_4d4d4d">#4d4d4d</color>
+    <color name="orange">#F58323</color>
+    <color name="color_red">#ff0000</color>
+
+
+
+    <color name="word_alipay_blue">#00aeff</color>
+    <color name="black90">#383431</color><!--黑色 -->
+    <color name="gray">#808080</color><!--灰色 -->
+    <color name="dimgray">#696969</color><!--暗灰色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="whitesmoke">#F5F5F5</color><!--烟白色 -->
+</resources>

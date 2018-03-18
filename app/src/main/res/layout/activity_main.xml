@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.femtoapp.expressterml.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_get_goods"
+            style="@style/RadioButton_Style"
+            android:checked="true"
+            android:drawableTop="@drawable/rbutton_bg_get_goods_selector"
+            android:text="@string/rb_get_goods"
+            android:textColor="@drawable/rbutton_bg_textcolor_selector"
+            android:textSize="26px" />
+
+        <RadioButton
+            android:id="@+id/rb_send_goods"
+            style="@style/RadioButton_Style"
+            android:drawableTop="@drawable/rbutton_bg_send_goods_selector"
+            android:text="@string/rb_send_goods"
+            android:textColor="@drawable/rbutton_bg_textcolor_selector"
+            android:textSize="26px" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            style="@style/RadioButton_Style"
+            android:drawableTop="@drawable/rbutton_bg_me_selector"
+            android:text="@string/rb_me"
+            android:textColor="@drawable/rbutton_bg_textcolor_selector"
+            android:textSize="26px" />
+
+    </RadioGroup>
+
+</RelativeLayout>

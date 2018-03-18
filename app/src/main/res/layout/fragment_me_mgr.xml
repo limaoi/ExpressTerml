@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:background="@drawable/bg_person_center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/rb_me"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/iv_head_picture"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="129dp"
+                android:src="@drawable/head_picture" />
+
+            <TextView
+                android:id="@+id/tv_nickName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="140dp"
+                android:layout_toRightOf="@id/iv_head_picture"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_nickName"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/iv_head_picture"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_isLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="150dp"
+                android:layout_toRightOf="@id/iv_head_picture"
+                android:text="点击进行登录"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="160dp"
+                android:src="@mipmap/ic_back_right_white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_dot_info"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_dot_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@mipmap/ic_dot_info" />
+
+            <TextView
+                android:id="@+id/tv_payment_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_dot_info"
+                android:text="@string/tv_dot_info"
+                android:textColor="@color/color_666666"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/ic_back_right_gray" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/color_dadada" />
+
+        <RelativeLayout
+            android:id="@+id/rl_wallet"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/colorWhite"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@mipmap/ic_wallet" />
+
+            <TextView
+                android:id="@+id/tv_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_wallet"
+                android:text="@string/tv_wallet"
+                android:textColor="@color/color_666666"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/ic_back_right_gray" />
+        </RelativeLayout>
+
+
+        <View
+            android:id="@+id/view_2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/color_dadada" />
+
+        <RelativeLayout
+            android:id="@+id/rl_account_info"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/colorWhite"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_account_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@mipmap/ic_account_info" />
+
+            <TextView
+                android:id="@+id/tv_account_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_account_info"
+                android:text="@string/tv_account_info"
+                android:textColor="@color/color_666666"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/ic_back_right_gray" />
+        </RelativeLayout>
+
+
+        <View
+            android:id="@+id/view_3"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/color_dadada" />
+
+        <RelativeLayout
+            android:id="@+id/rl_contact_headquarters"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/colorWhite"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_contact_headquarters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@mipmap/ic_contact_headquarters" />
+
+            <TextView
+                android:id="@+id/tv_contact_headquarters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_contact_headquarters"
+                android:text="@string/tv_contact_headquarters"
+                android:textColor="@color/color_666666"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/ic_back_right_gray" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="300dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_commit_button"
+            android:text="退出登录"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

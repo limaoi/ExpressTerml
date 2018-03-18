@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black90"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rgPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp">
+
+        <RadioButton
+            android:id="@+id/rbBluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/bluetooth"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rbUsb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usb"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rbEthernet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ethernet"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvPortInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:singleLine="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llEthernet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black90"
+        android:orientation="vertical"
+        android:paddingBottom="10sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0sp"
+            android:text="@string/ip_address"
+            android:textColor="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/etIpAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_style"
+            android:hint=""
+            android:text="@string/default_ip_address"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/port_number"
+            android:textColor="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/etPortNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_style"
+            android:inputType="number"
+            android:text="@string/default_port_number"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5sp"
+        android:background="@drawable/button_style"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="okButtonClicked"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/ok"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:visibility="gone" />
+</LinearLayout>

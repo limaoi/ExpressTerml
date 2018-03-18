@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@color/colorWhite">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_location"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:id="@+id/iv_location"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@color/color_dadada" />
+
+        <TextView
+            android:id="@+id/tv_region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/iv_location"
+            android:text="广东深圳公司福田区中电分部"
+            android:textColor="@color/color_666666"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_region"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_location"
+            android:text="八丁街18号"
+            android:textColor="@color/color_999999"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@id/tv_distance"
+            android:src="@mipmap/ic_navigation" />
+
+        <TextView
+            android:id="@+id/tv_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginRight="15dp"
+            android:text="1.44km"
+            android:textColor="@color/color_999999" />
+
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_dadada" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/rl_location"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="到这去"
+                android:textColor="@color/color_666666"
+                android:textSize="15dp" />
+
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="58dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/color_dadada" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话咨询"
+                android:textColor="@color/color_666666"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

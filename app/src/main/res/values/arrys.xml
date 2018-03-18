@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="switch_tabs">
+        <item>成功</item>
+        <item>失败</item>
+    </string-array>
+
+</resources>

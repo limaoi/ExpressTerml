@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_666666"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivOperationItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@drawable/ic_printer"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/tvOperationItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/ivOperationItem"
+        android:focusable="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btTestConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_connect_style"
+        android:focusable="false"
+        android:textColor="@color/black90"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ivOperationItem"
+        android:layout_gravity="center_vertical"
+        android:focusable="false"
+        android:gravity="left"
+        android:paddingLeft="10sp"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp" />
+</RelativeLayout><!--  <android:background="@drawable/textview_corner_style"-->
